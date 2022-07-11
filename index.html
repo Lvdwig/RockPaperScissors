@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="icon" href="img/appIcon.jpg">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/main.js" defer></script>
+  </head>
+  <body>
+    <h1>Rock, Paper Scissors</h1>
+    <article>
+      <div>
+        <div id="buttons">
+          <button id="rock" value="rock" onclick="playerMove(this.value);">✊</button>
+          <button id="paper" value="paper" onclick="playerMove(this.value);">✋</button>
+          <button id="scissors" value="scissors" onclick="playerMove(this.value);">✌</button>
+        </div>
+        <p id="winner">Winner:</p>
+        <table id="history" cellspacing="30px">
+          <tr>
+            <th id="playerLastMove">Last Move Player</th>
+            <th id="pcLastMove">Last Move PC</th>
+            <th id="pCount">Count Player</th>
+            <th id="pcCount">Count PC</th>
+          </tr>
+        </table>
+      </div>
+    </article>
+  </body>
+</html>

@@ -1,0 +1,59 @@
+body {
+  background-color: blueviolet;
+  font-family: "JetBrains Mono";
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+article {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+article img {
+  margin-top: 40px;
+  margin-left: 35px;
+  margin-right: 35px;
+}
+
+#buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+#rock {
+  font-size: 120px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+#paper {
+  font-size: 120px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+#scissors {
+  font-size: 120px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+#winner {
+  text-align: center;
+  font-size: 30px;
+  color: white;
+}
+
+#history {
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
